@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="NavBar.css">
+    <style>
+        html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+    </style>
+</head>
+<body>
+    <section class="headerSection">
+        <div class="siteName">
+            <h1>Nozama</h1>
+        </div>
+        <div class="searchSection headerPart">
+            <input type="text" name="serachBar" id="SearchBar">
+        </div>
+        <div class="navBar headerPart">
+            <a  href="./index.html" class="navOptions">Home</a>
+            <a  href="./categorias.html" class="navOptions">Categorias</a>
+            <a  href="./ofertas.html" class="navOptions">Ofertas do Dia</a>
+            <a  href="./historico.html" class="navOptions">Histótico</a>
+            <a  href="./maisVendidos.html" class="navOptions">Mais Vendidos</a>
+            <a  href="./cadastro.html" class="navOptions">Cadastro</a>
+        </div>
+    </section>
+    <section class="content">
+        <form class="formSection contents">
+            <h1>Formulário de Cadastro</h1>
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" placeholder="Insira seu nome">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="Ex.: kaka123@gmail.com">
+            </div>
+            <div>
+                <label for="password">Senha:</label>
+                <input type="text" id="password" name="password" placeholder="Insira uma senha">
+            </div>
+            <div>
+                <label for="repeatPassword">Rep. senha:</label>
+                <input type="text" id="repeatPassword" name="repeatPassword" placeholder="Repita a senha inserida">
+            </div>
+            <div>
+                <label for="sex">Sexo:</label>
+                <select name="sex" id="sex">
+                    <option value="">Escolha uma opção:</option>
+                    <option value="masculino">Maculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="n/d">Prefiro não declarar</option>
+                </select>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

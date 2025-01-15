@@ -20,12 +20,29 @@
     border-style: solid;
     line-height: 6vh;
     border-color: yellow;
+    font-size: large;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 .navOptions {
     vertical-align: middle;
     line-height: normal;
     margin-left: 2vh;
+    color: white;
+}
+
+.navOptions:hover {
+    transition-duration: 1s;
+    padding: 0.5%;
+    background-color: rgb(216, 216, 60);
+    color: black;
 }
 
 .content {
@@ -34,12 +51,15 @@
     text-align: center;
 }
 
-.benefits {
+.contents {
     width: 80vw;
-    height: 15vh;
     margin-top: 5vh;
-    background-color: white;
     display: inline-block;
+}
+
+.benefits {
+    height: 15vh;
+    background-color: white;
     border-radius: 1vw;
 }
 
@@ -60,4 +80,36 @@
 
 .title, .subTitle {
     margin-left: 1vw;
+}
+
+.marketItem {
+    background-color: white;
+    width: 15vw;
+    height: 274px;
+    float: left;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    overflow: hidden;
+    h2 {
+        border-top: solid grey 1.5px;
+    }
+    .lastPrice {
+        border-top: solid grey 1.5px;
+        visibility: hidden;
+        text-decoration: line-through;
+    }
+    
+}
+
+.marketItem:hover {
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    height: 330px;
+    border: solid grey 1px;
+    .lastPrice {
+        visibility: visible;
+    }
+    h2 {
+        border: none;
+    }
 }

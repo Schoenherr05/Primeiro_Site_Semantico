@@ -1,0 +1,63 @@
+.headerSection {
+    background-color: rgb(63, 62, 62);
+    font-family: 'Times New Roman', Times, serif;
+    height: 16vh;
+    color:white;
+}
+
+.headerPart {
+    height: 8vh;
+    text-align: center;
+}
+
+.searchSection {
+    height: 3vh;
+    margin-top: 2vh;
+
+}
+
+.navBar {
+    border-style: solid;
+    line-height: 6vh;
+    border-color: yellow;
+    font-size: large;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.navOptions {
+    vertical-align: middle;
+    line-height: normal;
+    margin-left: 2vh;
+    color: white;
+}
+
+.navOptions:hover {
+    transition-duration: 1s;
+    padding: 0.5%;
+    background-color: rgb(216, 216, 60);
+    color: black;
+}
+
+.content {
+    height: 84vh;
+    background-color: #c2bcbc;
+    text-align: center;
+}
+
+.contents {
+    width: 80vw;
+    margin-top: 5vh;
+    display: inline-block;
+}
+
+.formSection {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
